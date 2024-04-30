@@ -1,0 +1,99 @@
+{
+  "name": "cyboxreact",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@fullcalendar/core": "^6.1.11",
+    "@fullcalendar/daygrid": "^6.1.11",
+    "@fullcalendar/interaction": "^6.1.11",
+    "@fullcalendar/multimonth": "^6.1.11",
+    "@fullcalendar/react": "^6.1.11",
+    "@fullcalendar/timegrid": "^6.1.11",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/material": "^5.15.11",
+    "@react-pdf/renderer": "^3.4.2",
+    "@reduxjs/toolkit": "^2.2.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "aos": "^2.3.4",
+    "apexcharts": "^3.49.0",
+    "axios": "^1.6.7",
+    "chart.js": "^4.4.2",
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "faker": "^5.5.3",
+    "firebase": "^10.11.0",
+    "html2canvas": "^1.4.1",
+    "js-cookie": "^3.0.5",
+    "jspdf": "^2.5.1",
+    "jwt-decode": "^4.0.0",
+    "materialize-css": "^1.0.0",
+    "mdb-react-ui-kit": "^7.2.0",
+    "qrcode": "^1.5.3",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-bootstrap": "^2.3.0",
+    "react-bootstrap-accordion": "^1.0.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-cookie": "^7.1.0",
+    "react-datepicker": "^6.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^5.0.1",
+    "react-modal-video": "^1.2.8",
+    "react-pdf": "^7.7.1",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.8.0",
+    "react-speech-recognition": "^3.10.0",
+    "react-tabs": "^6.0.2",
+    "react-toastify": "^10.0.4",
+    "react-transition-group": "^4.4.2",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^3.1.0",
+    "sass": "^1.50.0",
+    "styled-components": "^6.1.8",
+    "sweetalert2": "^11.10.5",
+    "swiper": "^8.1.1",
+    "volkeno-react-native-quiz-multiple-choice": "^1.0.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

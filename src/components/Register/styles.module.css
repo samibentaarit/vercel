@@ -1,0 +1,31 @@
+.error_msg,
+.success_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.level-fieldset {
+    /* Ajoutez ici les styles communs aux autres champs */
+    margin-bottom: 100%;
+    width: 1000px;
+	padding: 15px;
+	margin: 5px 0;
+	border-radius: 5px;
+background-color: transparent;
+font-family: 'DM Sans', sans-serif;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+overflow-x: hidden;
+overflow-y: auto;
+    /* Ajoutez d'autres styles selon vos besoins */
+ }

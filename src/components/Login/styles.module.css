@@ -1,0 +1,32 @@
+.error_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.header{
+	margin-top: 100px;
+}
+.password-input-container {
+	position: relative;
+  }
+  
+  .password-toggle-icon {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+	cursor: pointer;
+  }
+  .password-eye {
+	position: absolute;
+	top: 50%;
+	right: 10px; /* Adjust positioning as needed */
+	transform: translateY(-50%);
+	cursor: pointer;
+  }

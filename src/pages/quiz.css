@@ -1,0 +1,58 @@
+.quiz-container {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+.question {
+  margin-bottom: 2rem;
+  font-weight: bold; /* Rendre le texte en gras */
+  font-size: 1.5rem; /* Taille de la police */
+  color: black; 
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  
+}
+.optionButton {
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  text-transform: none;
+  width: 100%;
+  /* Supprimer la définition de couleur */
+}
+.optionButton:hover {
+  border: 3px solid #4155c2; /* Bordure en gras de couleur rose */
+  background-color: white; /* Fond blanc */
+}
+.optionButton.selectedOptionButton {
+  /* Styles pour les boutons d'option sélectionnés */
+  border: 3px solid #4155c2; /* Bordure en gras de couleur rose */
+  background-color: none; /* Fond blanc */
+}
+
+.buttonGroup {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+.buttonGroup button {
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .optionButton {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
